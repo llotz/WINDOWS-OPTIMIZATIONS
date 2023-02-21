@@ -660,7 +660,7 @@ foreach ($adapter in $NICs)
       }
     }
   }
-Write-Host "Receive-Buffer optimization is complitly finished." -ForegroundColor Cyan
+Write-Host "Receive-Buffer optimization is completely finished." -ForegroundColor Cyan
 
 # OPTIMIZE TRANSMIT-BUFFERS ON ALL NIC's
 # Get-NetAdapterAdvancedProperty | Where-Object -FilterScript {$_.RegistryKeyword -Like "*TransmitBuffers"}
@@ -692,7 +692,7 @@ foreach ($adapter in $NICs)
       }
     }
   }
-Write-Host "Transmit-Buffer optimization is complitly finished." -ForegroundColor Cyan
+Write-Host "Transmit-Buffer optimization is completely finished." -ForegroundColor Cyan
 
 # OPTIMIZE TCPACKFREQUENCY 
 Write-Host "Start ACK-Frequency optimization" -ForegroundColor Cyan
